@@ -29,6 +29,8 @@ For each service, cd into the service's base directory (trader-quots, trader-acc
 
 #### Notes
 
+To start using the deployed application, visit the trader-web service in your browser.
+
 To view the Service Registry, go to Apps Manager and click the 'Manage' link under the registry service.
 ![Service Registry](https://c1.staticflickr.com/1/608/22645938608_33e24f79b2_o.png)
 
