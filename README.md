@@ -23,7 +23,7 @@ For initial setup, build and deploy the services in the following order:
 
 For each service, cd into the service's base directory (trader-quots, trader-accounts, etc.) and perform the following steps:
 
-1. mvn package
+1. Type **mvn package** to build the executable .jar file
 2. In the manifest.yml file, the CF_TARGET environment variable points to the PEZ Heritage environment by default. If you want to target a different environment, update the variable.
 3. [cf push](http://www.vevo.com/watch/salt-n-pepa/Push-It/USIV30400109)
 
