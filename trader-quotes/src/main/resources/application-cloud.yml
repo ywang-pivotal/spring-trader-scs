@@ -1,0 +1,4 @@
+eureka:
+  instance:
+    secure-port-enabled: true
+    non-secure-port-enabled: false

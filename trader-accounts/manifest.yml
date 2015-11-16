@@ -1,0 +1,9 @@
+---
+applications:
+- name: account-service
+  path: target/trader-accounts-0.0.1-SNAPSHOT.jar
+  env:
+      CF_TARGET: https://api.run.pez.pivotal.io
+  services:
+   - registry
+   - traderdb

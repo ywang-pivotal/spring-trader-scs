@@ -1,0 +1,9 @@
+---
+applications:
+- name: portfolio-service
+  path: target/trader-portfolio-0.0.1-SNAPSHOT.jar
+  env:
+      CF_TARGET: https://api.run.pez.pivotal.io
+  services:
+   - registry
+   - traderdb

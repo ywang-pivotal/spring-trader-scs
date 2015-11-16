@@ -1,0 +1,9 @@
+---
+applications:
+- name: quote-service
+  path: target/trader-quotes-0.0.1-SNAPSHOT.jar
+  env:
+      CF_TARGET: https://api.run.pez.pivotal.io
+  services:
+   - registry
+   - breaker

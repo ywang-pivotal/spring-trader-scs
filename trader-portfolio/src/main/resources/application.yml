@@ -1,0 +1,18 @@
+security:
+  basic:
+    enabled: false
+
+endpoints:
+  shutdown:
+    enabled: true
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+
+service:
+  protocol: http://
